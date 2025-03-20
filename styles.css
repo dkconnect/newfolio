@@ -244,6 +244,29 @@ body {
     margin-bottom: 5px;
 }
 
+/* My Skills Section */
+.skills-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.skills-list ul {
+    list-style: none;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 150px;
+}
+
+.skills-list ul li {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -265,6 +288,10 @@ body {
     .timeline-details {
         margin-left: 0;
         margin-top: 10px;
+    }
+
+    .skills-list {
+        flex-direction: column;
     }
 }
 
