@@ -235,7 +235,11 @@ body {
 
 .timeline-header p {
     font-size: 14px;
-    color: #ccc;
+    color: #ccc; /* Default color for non-date <p> tags */
+}
+
+.timeline-header p.date {
+    color: #f5a623; /* Golden color for dates, matching the icons */
 }
 
 .timeline-details {
