@@ -43,10 +43,10 @@ body {
 }
 
 .profile img {
-    width: 150px;
-    height: 150px;
+    width: 180px; /* Increased from 150px to make the image larger */
+    height: 180px; /* Increased from 150px to maintain aspect ratio */
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Increased from 20px to lower the position */
 }
 
 .profile h2 {
