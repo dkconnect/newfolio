@@ -150,6 +150,7 @@ body {
 }
 
 /* Resume Section */
+/* Resume Section */
 .resume-section h1 {
     font-size: 28px;
     margin-bottom: 20px;
@@ -197,7 +198,8 @@ body {
 
 .timeline-content {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .timeline-header {
@@ -226,7 +228,9 @@ body {
     background-color: #333;
     padding: 15px;
     border-radius: 10px;
-    margin-left: 65px;
+    width: 100%;
+    max-width: 300px; /* Fixed width for consistency */
+    box-sizing: border-box;
 }
 
 .timeline-details h4 {
@@ -243,7 +247,6 @@ body {
 .timeline-details ul li {
     margin-bottom: 5px;
 }
-
 /* My Skills Section */
 .skills-list {
     display: flex;
